@@ -21,3 +21,13 @@ else
     {
         console.log("scissors");
     }
+
+// Getting the human's choice
+
+
+function getHumanChoice() {
+    return prompt("Pick betwen rock, paper, scissors: ");
+}
+
+console.log(getHumanChoice());
+
